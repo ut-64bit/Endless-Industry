@@ -1,0 +1,14 @@
+{
+	"item.kubejs.wheel_rubber": "Wheel Rubber",
+	"item.minecraft.wooden_pickaxe.tooltip": "WOODEN PICKAXE",
+	"item.minecraft.wooden_pickaxe.tooltip.summary": "Insert _Vanilla tools_ into the _crafting grid_ to _convert_ them to _SGear_ tools. Vanilla tools are _downgraded_ to _one durability_, so _convert_ them to _SGear_ to actually _make use_ of them.",
+	"item.minecraft.wooden_pickaxe.tooltip.condition1": "When used",
+	"item.minecraft.wooden_pickaxe.tooltip.behaviour1": "Instantly breaks, convert to SGear to prevent.",
+	"item.minecraft.wooden_pickaxe.tooltip.control1": "Put in crafting grid",
+	"item.minecraft.wooden_pickaxe.tooltip.action1": "Convert to SGear equivalent",
+
+	"item.minecraft.nethers_speciality.tooltip": "Nether Speciality",
+	"item.minecraft.nether_exclusive.tooltip": "Nether Exclusive",
+	"desc.immersiveengineering.info.blueprint.teleportation_core": "Teleportation Core"
+
+}

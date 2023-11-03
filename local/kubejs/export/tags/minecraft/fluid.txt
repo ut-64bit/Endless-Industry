@@ -1,0 +1,181 @@
+To refresh this file, delete it and run /reload command again! Last updated: Oct 25, 2023, 5:11:35 PM
+
+#forge:gasoline_additives
+- immersivepetroleum:gasoline_additives (from ImmersivePetroleum-1.19.2-4.2.0-24.jar)
+
+#forge:lubricant
+- immersivepetroleum:lubricant (from ImmersivePetroleum-1.19.2-4.2.0-24.jar)
+
+#forge:diesel_sulfur
+- immersivepetroleum:diesel_sulfur (from ImmersivePetroleum-1.19.2-4.2.0-24.jar)
+
+#forge:crude_oil
+- immersivepetroleum:crudeoil (from ImmersivePetroleum-1.19.2-4.2.0-24.jar)
+
+#forge:benzene
+- immersivepetroleum:benzene (from ImmersivePetroleum-1.19.2-4.2.0-24.jar)
+
+#minecraft:water
+- minecraft:water (from Default)
+- minecraft:flowing_water (from Default)
+- hexerei:blood_flowing (from hexerei-0.3.3.1.jar)
+- hexerei:blood_fluid (from hexerei-0.3.3.1.jar)
+- hexerei:tallow_flowing (from hexerei-0.3.3.1.jar)
+- hexerei:tallow_fluid (from hexerei-0.3.3.1.jar)
+- createaddition:flowing_seed_oil (from createaddition-1.19.2-1.1.1.jar)
+- createaddition:seed_oil (from createaddition-1.19.2-1.1.1.jar)
+- createaddition:flowing_bioethanol (from createaddition-1.19.2-1.1.1.jar)
+- createaddition:bioethanol (from createaddition-1.19.2-1.1.1.jar)
+
+#forge:biodiesel
+- createdieselgenerators:biodiesel (from createdieselgenerators-1.19.2-1.1d.jar)
+- immersiveengineering:biodiesel (from ImmersiveEngineering-1.19.2-9.2.3-167.jar)
+
+#forge:milk
+- minecraft:milk? (from forge-1.19.2-43.3.0-universal.jar)
+- minecraft:flowing_milk? (from forge-1.19.2-43.3.0-universal.jar)
+
+#forge:herbicide
+- immersiveengineering:herbicide (from ImmersiveEngineering-1.19.2-9.2.3-167.jar)
+
+#forge:biofuel
+- createaddition:flowing_bioethanol (from createaddition-1.19.2-1.1.1.jar)
+- createaddition:bioethanol (from createaddition-1.19.2-1.1.1.jar)
+
+#create:fan_processing_catalysts/smoking
+
+#forge:plantoil
+- createdieselgenerators:plant_oil (from createdieselgenerators-1.19.2-1.1d.jar)
+- immersiveengineering:plantoil (from ImmersiveEngineering-1.19.2-9.2.3-167.jar)
+- createaddition:flowing_seed_oil (from createaddition-1.19.2-1.1.1.jar)
+- createaddition:seed_oil (from createaddition-1.19.2-1.1.1.jar)
+
+#forge:naphtha_cracked
+- immersivepetroleum:naphtha_cracked (from ImmersivePetroleum-1.19.2-4.2.0-24.jar)
+
+#minecraft:lava
+- minecraft:lava (from Default)
+- minecraft:flowing_lava (from Default)
+- hexerei:quicksilver_flowing (from hexerei-0.3.3.1.jar)
+- hexerei:quicksilver_fluid (from hexerei-0.3.3.1.jar)
+
+#forge:gaseous
+- immersivepetroleum:propylene (from ImmersivePetroleum-1.19.2-4.2.0-24.jar)
+- immersivepetroleum:ethylene (from ImmersivePetroleum-1.19.2-4.2.0-24.jar)
+- immersiveengineering:acetaldehyde (from ImmersiveEngineering-1.19.2-9.2.3-167.jar)
+
+#biomesoplenty:blood
+- biomesoplenty:blood (from BiomesOPlenty-1.19.2-17.1.2.544.jar)
+- biomesoplenty:flowing_blood (from BiomesOPlenty-1.19.2-17.1.2.544.jar)
+
+#forge:ethanol
+- createdieselgenerators:ethanol (from createdieselgenerators-1.19.2-1.1d.jar)
+- immersiveengineering:ethanol (from ImmersiveEngineering-1.19.2-9.2.3-167.jar)
+
+#create:bottomless/deny
+
+#forge:chocolate
+- create:flowing_chocolate (from create-1.19.2-0.5.1.e.jar)
+- create:chocolate (from create-1.19.2-0.5.1.e.jar)
+
+#forge:redstone_acid
+- immersiveengineering:redstone_acid (from ImmersiveEngineering-1.19.2-9.2.3-167.jar)
+
+#create:bottomless/allow
+- minecraft:water (from create-1.19.2-0.5.1.e.jar)
+- minecraft:lava (from create-1.19.2-0.5.1.e.jar)
+
+#forge:concrete
+- immersiveengineering:concrete (from ImmersiveEngineering-1.19.2-9.2.3-167.jar)
+
+#forge:potion
+- create:potion? (from starbunclemania-1.19.2-1.0.9.jar)
+- hexerei:potion? (from starbunclemania-1.19.2-1.0.9.jar)
+- immersiveengineering:potion (from ImmersiveEngineering-1.19.2-9.2.3-167.jar)
+
+#immersivepetroleum:burnable_in_flarestack
+- #forge:lubricant (from ImmersivePetroleum-1.19.2-4.2.0-24.jar)
+- #forge:diesel (from ImmersivePetroleum-1.19.2-4.2.0-24.jar)
+- #forge:diesel_sulfur (from ImmersivePetroleum-1.19.2-4.2.0-24.jar)
+- #forge:gasoline (from ImmersivePetroleum-1.19.2-4.2.0-24.jar)
+- #forge:naphtha (from ImmersivePetroleum-1.19.2-4.2.0-24.jar)
+- #forge:naphtha_cracked (from ImmersivePetroleum-1.19.2-4.2.0-24.jar)
+- #forge:benzene (from ImmersivePetroleum-1.19.2-4.2.0-24.jar)
+- #forge:propylene (from ImmersivePetroleum-1.19.2-4.2.0-24.jar)
+- #forge:ethylene (from ImmersivePetroleum-1.19.2-4.2.0-24.jar)
+- #forge:lubricant_cracked (from ImmersivePetroleum-1.19.2-4.2.0-24.jar)
+- #forge:kerosene (from ImmersivePetroleum-1.19.2-4.2.0-24.jar)
+- #forge:gasoline_additives (from ImmersivePetroleum-1.19.2-4.2.0-24.jar)
+- #forge:plantoil (from ImmersivePetroleum-1.19.2-4.2.0-24.jar)
+- #forge:creosote (from ImmersivePetroleum-1.19.2-4.2.0-24.jar)
+- #forge:ethanol (from ImmersivePetroleum-1.19.2-4.2.0-24.jar)
+
+#forge:lubricant_cracked
+- immersivepetroleum:lubricant_cracked (from ImmersivePetroleum-1.19.2-4.2.0-24.jar)
+
+#forge:gasoline
+- immersivepetroleum:gasoline (from ImmersivePetroleum-1.19.2-4.2.0-24.jar)
+
+#forge:experience
+- sophisticatedcore:xp_still (from sophisticatedcore-1.19.2-0.5.98.459.jar)
+
+#forge:tea
+- create:flowing_tea (from create-1.19.2-0.5.1.e.jar)
+- create:tea (from create-1.19.2-0.5.1.e.jar)
+
+#forge:diesel
+- immersivepetroleum:diesel (from ImmersivePetroleum-1.19.2-4.2.0-24.jar)
+- immersivepetroleum:diesel_sulfur (from ImmersivePetroleum-1.19.2-4.2.0-24.jar)
+
+#ae2:blacklisted/annihilation_plane
+
+#create:fan_processing_catalysts/splashing
+- minecraft:water (from create-1.19.2-0.5.1.e.jar)
+- minecraft:flowing_water (from create-1.19.2-0.5.1.e.jar)
+
+#create:fan_processing_catalysts/haunting
+
+#immersiveengineering:drill_fuel
+- #forge:diesel (from ImmersivePetroleum-1.19.2-4.2.0-24.jar)
+- #forge:kerosene (from ImmersivePetroleum-1.19.2-4.2.0-24.jar)
+- #forge:diesel_sulfur (from ImmersivePetroleum-1.19.2-4.2.0-24.jar)
+- #forge:biodiesel (from ImmersiveEngineering-1.19.2-9.2.3-167.jar)
+
+#forge:kerosene
+- immersivepetroleum:kerosene (from ImmersivePetroleum-1.19.2-4.2.0-24.jar)
+
+#forge:ethylene
+- immersivepetroleum:ethylene (from ImmersivePetroleum-1.19.2-4.2.0-24.jar)
+
+#forge:naphtha
+- immersivepetroleum:naphtha (from ImmersivePetroleum-1.19.2-4.2.0-24.jar)
+
+#decorative_blocks:thatch
+- decorative_blocks:thatch (from Decorative Blocks-forge-1.19.2-3.0.0.jar)
+- decorative_blocks:flowing_thatch (from Decorative Blocks-forge-1.19.2-3.0.0.jar)
+
+#forge:honey
+- create:flowing_honey (from create-1.19.2-0.5.1.e.jar)
+- create:honey (from create-1.19.2-0.5.1.e.jar)
+
+#forge:creosote
+- immersiveengineering:creosote (from ImmersiveEngineering-1.19.2-9.2.3-167.jar)
+
+#forge:propylene
+- immersivepetroleum:propylene (from ImmersivePetroleum-1.19.2-4.2.0-24.jar)
+
+#create:fan_processing_catalysts/blasting
+- minecraft:lava (from create-1.19.2-0.5.1.e.jar)
+- minecraft:flowing_lava (from create-1.19.2-0.5.1.e.jar)
+
+#forge:phenolic_resin
+- immersiveengineering:phenolic_resin (from ImmersiveEngineering-1.19.2-9.2.3-167.jar)
+
+#forge:acetaldehyde
+- immersiveengineering:acetaldehyde (from ImmersiveEngineering-1.19.2-9.2.3-167.jar)
+
+#forge:napalm
+- immersivepetroleum:napalm (from ImmersivePetroleum-1.19.2-4.2.0-24.jar)
+
+#forge:fuel
+- createdieselgenerators:biodiesel (from createdieselgenerators-1.19.2-1.1d.jar)
