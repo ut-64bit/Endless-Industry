@@ -1,8 +1,0 @@
-{
-	"id": "minecraft:torch",
-	"light": {
-		"type": "lucent:match_block",
-		"block": "minecraft:torch"
-	},
-	"works_underwater": false
-}
