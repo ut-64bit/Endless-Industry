@@ -1,4 +1,5 @@
 /config/jei/world/
+/config/blockswap/known_states/
 /crash-reports
 /downloads
 /globalresources
@@ -20,3 +21,4 @@
 /usercache.json
 /usernamecache.json
 /.qmenu_opened.marker
+config/blockswap/known_states/additionalplacements/ars_nouveau.sourcestone_small_bricks_slab.json5
