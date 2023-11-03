@@ -1,0 +1,324 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"fluidlogged": "0",
+			"facing": "north",
+			"corner": "true"
+		},
+		"Name": "handcrafted:kitchen_hood_pipe"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"fluidlogged": "0",
+			"facing": "north",
+			"corner": "true"
+		},
+		"Name": "handcrafted:kitchen_hood_pipe"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"fluidlogged": "1",
+			"facing": "north",
+			"corner": "true"
+		},
+		"Name": "handcrafted:kitchen_hood_pipe"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"fluidlogged": "1",
+			"facing": "north",
+			"corner": "true"
+		},
+		"Name": "handcrafted:kitchen_hood_pipe"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"fluidlogged": "0",
+			"facing": "south",
+			"corner": "true"
+		},
+		"Name": "handcrafted:kitchen_hood_pipe"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"fluidlogged": "0",
+			"facing": "south",
+			"corner": "true"
+		},
+		"Name": "handcrafted:kitchen_hood_pipe"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"fluidlogged": "1",
+			"facing": "south",
+			"corner": "true"
+		},
+		"Name": "handcrafted:kitchen_hood_pipe"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"fluidlogged": "1",
+			"facing": "south",
+			"corner": "true"
+		},
+		"Name": "handcrafted:kitchen_hood_pipe"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"fluidlogged": "0",
+			"facing": "west",
+			"corner": "true"
+		},
+		"Name": "handcrafted:kitchen_hood_pipe"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"fluidlogged": "0",
+			"facing": "west",
+			"corner": "true"
+		},
+		"Name": "handcrafted:kitchen_hood_pipe"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"fluidlogged": "1",
+			"facing": "west",
+			"corner": "true"
+		},
+		"Name": "handcrafted:kitchen_hood_pipe"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"fluidlogged": "1",
+			"facing": "west",
+			"corner": "true"
+		},
+		"Name": "handcrafted:kitchen_hood_pipe"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"fluidlogged": "0",
+			"facing": "east",
+			"corner": "true"
+		},
+		"Name": "handcrafted:kitchen_hood_pipe"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"fluidlogged": "0",
+			"facing": "east",
+			"corner": "true"
+		},
+		"Name": "handcrafted:kitchen_hood_pipe"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"fluidlogged": "1",
+			"facing": "east",
+			"corner": "true"
+		},
+		"Name": "handcrafted:kitchen_hood_pipe"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"fluidlogged": "1",
+			"facing": "east",
+			"corner": "true"
+		},
+		"Name": "handcrafted:kitchen_hood_pipe"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"fluidlogged": "0",
+			"facing": "north",
+			"corner": "false"
+		},
+		"Name": "handcrafted:kitchen_hood_pipe"
+	},
+	{
+		"Name": "handcrafted:kitchen_hood_pipe"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"fluidlogged": "1",
+			"facing": "north",
+			"corner": "false"
+		},
+		"Name": "handcrafted:kitchen_hood_pipe"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"fluidlogged": "1",
+			"facing": "north",
+			"corner": "false"
+		},
+		"Name": "handcrafted:kitchen_hood_pipe"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"fluidlogged": "0",
+			"facing": "south",
+			"corner": "false"
+		},
+		"Name": "handcrafted:kitchen_hood_pipe"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"fluidlogged": "0",
+			"facing": "south",
+			"corner": "false"
+		},
+		"Name": "handcrafted:kitchen_hood_pipe"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"fluidlogged": "1",
+			"facing": "south",
+			"corner": "false"
+		},
+		"Name": "handcrafted:kitchen_hood_pipe"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"fluidlogged": "1",
+			"facing": "south",
+			"corner": "false"
+		},
+		"Name": "handcrafted:kitchen_hood_pipe"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"fluidlogged": "0",
+			"facing": "west",
+			"corner": "false"
+		},
+		"Name": "handcrafted:kitchen_hood_pipe"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"fluidlogged": "0",
+			"facing": "west",
+			"corner": "false"
+		},
+		"Name": "handcrafted:kitchen_hood_pipe"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"fluidlogged": "1",
+			"facing": "west",
+			"corner": "false"
+		},
+		"Name": "handcrafted:kitchen_hood_pipe"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"fluidlogged": "1",
+			"facing": "west",
+			"corner": "false"
+		},
+		"Name": "handcrafted:kitchen_hood_pipe"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"fluidlogged": "0",
+			"facing": "east",
+			"corner": "false"
+		},
+		"Name": "handcrafted:kitchen_hood_pipe"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"fluidlogged": "0",
+			"facing": "east",
+			"corner": "false"
+		},
+		"Name": "handcrafted:kitchen_hood_pipe"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"fluidlogged": "1",
+			"facing": "east",
+			"corner": "false"
+		},
+		"Name": "handcrafted:kitchen_hood_pipe"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"fluidlogged": "1",
+			"facing": "east",
+			"corner": "false"
+		},
+		"Name": "handcrafted:kitchen_hood_pipe"
+	}
+]

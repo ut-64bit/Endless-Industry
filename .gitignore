@@ -1,0 +1,15 @@
+/.curseclient
+/crash-reports
+/logs
+/minecraftinstance.json
+/patchouli_data.json
+/rhino.local.properties
+/saves
+/screenshots
+/usercache.json
+/usernamecache.json
+/config/jei/world/
+/XaeroWorldMap
+/XaeroWaypoints
+/config/AdvancedCompass/waypoints
+/XaeroWaypoints_BACKUP032021

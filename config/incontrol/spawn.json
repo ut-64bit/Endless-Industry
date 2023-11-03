@@ -1,0 +1,8 @@
+[
+	{
+		"seesky": true,
+		"dimension": "minecraft:overworld",
+		"hostile": true,
+		"result": "deny"
+	}
+]

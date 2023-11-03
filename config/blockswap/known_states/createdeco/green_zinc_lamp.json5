@@ -1,0 +1,1059 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"inverted": "true",
+			"fluidlogged": "0",
+			"facing": "north"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"inverted": "true",
+			"fluidlogged": "0",
+			"facing": "north"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"inverted": "true",
+			"fluidlogged": "0",
+			"facing": "north"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"inverted": "true",
+			"fluidlogged": "0",
+			"facing": "north"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"inverted": "false",
+			"fluidlogged": "0",
+			"facing": "north"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"inverted": "false",
+			"fluidlogged": "0",
+			"facing": "north"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"inverted": "false",
+			"fluidlogged": "0",
+			"facing": "north"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"inverted": "false",
+			"fluidlogged": "0",
+			"facing": "north"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"inverted": "true",
+			"fluidlogged": "1",
+			"facing": "north"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"inverted": "true",
+			"fluidlogged": "1",
+			"facing": "north"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"inverted": "true",
+			"fluidlogged": "1",
+			"facing": "north"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"inverted": "true",
+			"fluidlogged": "1",
+			"facing": "north"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"inverted": "false",
+			"fluidlogged": "1",
+			"facing": "north"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"inverted": "false",
+			"fluidlogged": "1",
+			"facing": "north"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"inverted": "false",
+			"fluidlogged": "1",
+			"facing": "north"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"inverted": "false",
+			"fluidlogged": "1",
+			"facing": "north"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"inverted": "true",
+			"fluidlogged": "0",
+			"facing": "east"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"inverted": "true",
+			"fluidlogged": "0",
+			"facing": "east"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"inverted": "true",
+			"fluidlogged": "0",
+			"facing": "east"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"inverted": "true",
+			"fluidlogged": "0",
+			"facing": "east"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"inverted": "false",
+			"fluidlogged": "0",
+			"facing": "east"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"inverted": "false",
+			"fluidlogged": "0",
+			"facing": "east"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"inverted": "false",
+			"fluidlogged": "0",
+			"facing": "east"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"inverted": "false",
+			"fluidlogged": "0",
+			"facing": "east"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"inverted": "true",
+			"fluidlogged": "1",
+			"facing": "east"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"inverted": "true",
+			"fluidlogged": "1",
+			"facing": "east"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"inverted": "true",
+			"fluidlogged": "1",
+			"facing": "east"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"inverted": "true",
+			"fluidlogged": "1",
+			"facing": "east"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"inverted": "false",
+			"fluidlogged": "1",
+			"facing": "east"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"inverted": "false",
+			"fluidlogged": "1",
+			"facing": "east"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"inverted": "false",
+			"fluidlogged": "1",
+			"facing": "east"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"inverted": "false",
+			"fluidlogged": "1",
+			"facing": "east"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"inverted": "true",
+			"fluidlogged": "0",
+			"facing": "south"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"inverted": "true",
+			"fluidlogged": "0",
+			"facing": "south"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"inverted": "true",
+			"fluidlogged": "0",
+			"facing": "south"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"inverted": "true",
+			"fluidlogged": "0",
+			"facing": "south"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"inverted": "false",
+			"fluidlogged": "0",
+			"facing": "south"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"inverted": "false",
+			"fluidlogged": "0",
+			"facing": "south"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"inverted": "false",
+			"fluidlogged": "0",
+			"facing": "south"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"inverted": "false",
+			"fluidlogged": "0",
+			"facing": "south"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"inverted": "true",
+			"fluidlogged": "1",
+			"facing": "south"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"inverted": "true",
+			"fluidlogged": "1",
+			"facing": "south"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"inverted": "true",
+			"fluidlogged": "1",
+			"facing": "south"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"inverted": "true",
+			"fluidlogged": "1",
+			"facing": "south"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"inverted": "false",
+			"fluidlogged": "1",
+			"facing": "south"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"inverted": "false",
+			"fluidlogged": "1",
+			"facing": "south"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"inverted": "false",
+			"fluidlogged": "1",
+			"facing": "south"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"inverted": "false",
+			"fluidlogged": "1",
+			"facing": "south"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"inverted": "true",
+			"fluidlogged": "0",
+			"facing": "west"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"inverted": "true",
+			"fluidlogged": "0",
+			"facing": "west"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"inverted": "true",
+			"fluidlogged": "0",
+			"facing": "west"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"inverted": "true",
+			"fluidlogged": "0",
+			"facing": "west"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"inverted": "false",
+			"fluidlogged": "0",
+			"facing": "west"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"inverted": "false",
+			"fluidlogged": "0",
+			"facing": "west"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"inverted": "false",
+			"fluidlogged": "0",
+			"facing": "west"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"inverted": "false",
+			"fluidlogged": "0",
+			"facing": "west"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"inverted": "true",
+			"fluidlogged": "1",
+			"facing": "west"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"inverted": "true",
+			"fluidlogged": "1",
+			"facing": "west"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"inverted": "true",
+			"fluidlogged": "1",
+			"facing": "west"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"inverted": "true",
+			"fluidlogged": "1",
+			"facing": "west"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"inverted": "false",
+			"fluidlogged": "1",
+			"facing": "west"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"inverted": "false",
+			"fluidlogged": "1",
+			"facing": "west"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"inverted": "false",
+			"fluidlogged": "1",
+			"facing": "west"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"inverted": "false",
+			"fluidlogged": "1",
+			"facing": "west"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"inverted": "true",
+			"fluidlogged": "0",
+			"facing": "up"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"inverted": "true",
+			"fluidlogged": "0",
+			"facing": "up"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"inverted": "true",
+			"fluidlogged": "0",
+			"facing": "up"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"inverted": "true",
+			"fluidlogged": "0",
+			"facing": "up"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"inverted": "false",
+			"fluidlogged": "0",
+			"facing": "up"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"inverted": "false",
+			"fluidlogged": "0",
+			"facing": "up"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"inverted": "false",
+			"fluidlogged": "0",
+			"facing": "up"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"inverted": "true",
+			"fluidlogged": "1",
+			"facing": "up"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"inverted": "true",
+			"fluidlogged": "1",
+			"facing": "up"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"inverted": "true",
+			"fluidlogged": "1",
+			"facing": "up"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"inverted": "true",
+			"fluidlogged": "1",
+			"facing": "up"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"inverted": "false",
+			"fluidlogged": "1",
+			"facing": "up"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"inverted": "false",
+			"fluidlogged": "1",
+			"facing": "up"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"inverted": "false",
+			"fluidlogged": "1",
+			"facing": "up"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"inverted": "false",
+			"fluidlogged": "1",
+			"facing": "up"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"inverted": "true",
+			"fluidlogged": "0",
+			"facing": "down"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"inverted": "true",
+			"fluidlogged": "0",
+			"facing": "down"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"inverted": "true",
+			"fluidlogged": "0",
+			"facing": "down"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"inverted": "true",
+			"fluidlogged": "0",
+			"facing": "down"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"inverted": "false",
+			"fluidlogged": "0",
+			"facing": "down"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"inverted": "false",
+			"fluidlogged": "0",
+			"facing": "down"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"inverted": "false",
+			"fluidlogged": "0",
+			"facing": "down"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"inverted": "false",
+			"fluidlogged": "0",
+			"facing": "down"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"inverted": "true",
+			"fluidlogged": "1",
+			"facing": "down"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"inverted": "true",
+			"fluidlogged": "1",
+			"facing": "down"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"inverted": "true",
+			"fluidlogged": "1",
+			"facing": "down"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"inverted": "true",
+			"fluidlogged": "1",
+			"facing": "down"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"inverted": "false",
+			"fluidlogged": "1",
+			"facing": "down"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"inverted": "false",
+			"fluidlogged": "1",
+			"facing": "down"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"inverted": "false",
+			"fluidlogged": "1",
+			"facing": "down"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"inverted": "false",
+			"fluidlogged": "1",
+			"facing": "down"
+		},
+		"Name": "createdeco:green_zinc_lamp"
+	}
+]
