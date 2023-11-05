@@ -3,7 +3,7 @@
 /crash-reports
 /downloads
 /globalresources
-/lightspeed-
+lightspeed-cache
 /localconfigs
 /logs
 /mod_data
@@ -21,4 +21,3 @@
 /usercache.json
 /usernamecache.json
 /.qmenu_opened.marker
-config/blockswap/known_states/additionalplacements/ars_nouveau.sourcestone_small_bricks_slab.json5
