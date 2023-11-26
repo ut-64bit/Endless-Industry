@@ -23,26 +23,21 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| getDistance |  |  | float | ✘ |
 | getBlock |  |  | BlockContainerJS | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getEntity |  |  | Entity | ✘ |
+| getDistance |  |  | float | ✘ |
 | getPlayer |  |  | Player | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | success | Object |  | Object | ✘ |
 | success |  |  | Object | ✘ |
-| cancel | Object |  | Object | ✘ |
 | cancel |  |  | Object | ✘ |
+| cancel | Object |  | Object | ✘ |
 
 
 ### Documented members:
-
-- `float getDistance()`
-```
-The distance of the entity from the block.
-```
 
 - `BlockContainerJS getBlock()`
 ```
@@ -57,6 +52,11 @@ The level that the farmland and the entity are in.
 - `Entity getEntity()`
 ```
 The entity that is attempting to trample the farmland.
+```
+
+- `float getDistance()`
+```
+The distance of the entity from the block.
 ```
 
 - `Object exit(Object var0)`
@@ -95,6 +95,13 @@ Stops the event with default exit value. Execution will be stopped **immediately
 `success` denotes a `true` outcome.
 ```
 
+- `Object cancel()`
+```
+Cancels the event with default exit value. Execution will be stopped **immediately**.
+
+`cancel` denotes a `false` outcome.
+```
+
 - `Object cancel(Object var0)`
 
   Parameters:
@@ -102,13 +109,6 @@ Stops the event with default exit value. Execution will be stopped **immediately
 
 ```
 Cancels the event with the given exit value. Execution will be stopped **immediately**.
-
-`cancel` denotes a `false` outcome.
-```
-
-- `Object cancel()`
-```
-Cancels the event with default exit value. Execution will be stopped **immediately**.
 
 `cancel` denotes a `false` outcome.
 ```

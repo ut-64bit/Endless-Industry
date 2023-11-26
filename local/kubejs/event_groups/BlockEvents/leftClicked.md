@@ -23,34 +23,34 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| getItem |  |  | ItemStack | ✘ |
 | getBlock |  |  | BlockContainerJS | ✘ |
+| getItem |  |  | ItemStack | ✘ |
 | getFacing |  |  | Direction | ✘ |
-| getEntity |  |  | Player | ✘ |
-| getPlayer |  |  | Player | ✘ |
-| hasGameStage | String |  | boolean | ✘ |
+| getEntity |  |  | Entity | ✘ |
 | addGameStage | String |  | void | ✘ |
 | removeGameStage | String |  | void | ✘ |
+| getPlayer |  |  | Player | ✘ |
+| hasGameStage | String |  | boolean | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | success | Object |  | Object | ✘ |
 | success |  |  | Object | ✘ |
-| cancel | Object |  | Object | ✘ |
 | cancel |  |  | Object | ✘ |
+| cancel | Object |  | Object | ✘ |
 
 
 ### Documented members:
 
-- `ItemStack getItem()`
-```
-The item that was used to left click the block.
-```
-
 - `BlockContainerJS getBlock()`
 ```
 The block that was left clicked.
+```
+
+- `ItemStack getItem()`
+```
+The item that was used to left click the block.
 ```
 
 - `Direction getFacing()`
@@ -58,18 +58,9 @@ The block that was left clicked.
 The face of the block that was left clicked.
 ```
 
-- `Player getEntity()`
+- `Entity getEntity()`
 ```
 The player that left clicked the block.
-```
-
-- `boolean hasGameStage(String var0)`
-
-  Parameters:
-  - var0: String
-
-```
-Checks if the player has the specified game stage
 ```
 
 - `void addGameStage(String var0)`
@@ -88,6 +79,15 @@ Adds the specified game stage to the player
 
 ```
 Removes the specified game stage from the player
+```
+
+- `boolean hasGameStage(String var0)`
+
+  Parameters:
+  - var0: String
+
+```
+Checks if the player has the specified game stage
 ```
 
 - `Object exit(Object var0)`
@@ -126,6 +126,13 @@ Stops the event with default exit value. Execution will be stopped **immediately
 `success` denotes a `true` outcome.
 ```
 
+- `Object cancel()`
+```
+Cancels the event with default exit value. Execution will be stopped **immediately**.
+
+`cancel` denotes a `false` outcome.
+```
+
 - `Object cancel(Object var0)`
 
   Parameters:
@@ -133,13 +140,6 @@ Stops the event with default exit value. Execution will be stopped **immediately
 
 ```
 Cancels the event with the given exit value. Execution will be stopped **immediately**.
-
-`cancel` denotes a `false` outcome.
-```
-
-- `Object cancel()`
-```
-Cancels the event with default exit value. Execution will be stopped **immediately**.
 
 `cancel` denotes a `false` outcome.
 ```

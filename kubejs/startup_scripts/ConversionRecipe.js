@@ -1,4 +1,5 @@
 // priority: 1
+// requires: create
 
 StartupEvents.postInit(event => {
 	let $MysteriousItemConversionCategory = Java.loadClass('com.simibubi.create.compat.jei.category.MysteriousItemConversionCategory')

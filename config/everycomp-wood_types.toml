@@ -12,6 +12,11 @@
 			ancient = true
 			blossom = true
 
+		[types.wood_type.hexerei]
+			mahogany = true
+			willow = true
+			witch_hazel = true
+
 		[types.wood_type.biomesoplenty]
 			fir = true
 			redwood = true
@@ -25,10 +30,9 @@
 			umbran = true
 			hellbark = true
 
-		[types.wood_type.hexerei]
-			mahogany = true
-			willow = true
-			witch_hazel = true
+		[types.wood_type.botania]
+			livingwood = true
+			dreamwood = true
 
 	[types.leaves_type]
 
@@ -37,26 +41,6 @@
 			green_archwood = true
 			purple_archwood = true
 			red_archwood = true
-
-		[types.leaves_type.biomesoplenty]
-			origin = true
-			flowering_oak = true
-			maple = true
-			orange_autumn = true
-			yellow_autumn = true
-			rainbow_birch = true
-			fir = true
-			redwood = true
-			white_cherry = true
-			pink_cherry = true
-			mahogany = true
-			jacaranda = true
-			palm = true
-			willow = true
-			dead = true
-			magic = true
-			umbran = true
-			hellbark = true
 
 		[types.leaves_type.culturaldelights]
 			avocado = true
@@ -78,6 +62,26 @@
 			mahogany = true
 			willow = true
 			witch_hazel = true
+
+		[types.leaves_type.biomesoplenty]
+			origin = true
+			flowering_oak = true
+			maple = true
+			orange_autumn = true
+			yellow_autumn = true
+			rainbow_birch = true
+			fir = true
+			redwood = true
+			white_cherry = true
+			pink_cherry = true
+			mahogany = true
+			jacaranda = true
+			palm = true
+			willow = true
+			dead = true
+			magic = true
+			umbran = true
+			hellbark = true
 
 [entries]
 

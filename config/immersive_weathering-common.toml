@@ -3,7 +3,7 @@
 	block_growths = true
 	#put here the name of a block growth json you want to disable i.e: [weeds, weeds_spread].Note that this is not the preferred way to do this as block growths are all data driven so it would be best to disable or tweak them by creating a datapack that overrides themCheck the mod data folder for the required names. Requires resource reload (/data reload)
 	block_growth_blacklist = []
-	creative_tab = false
+	creative_tab = true
 	#Drop stuff when in creative
 	drop_in_creative = false
 	#Save generated resources to disk in a 'debug' folder in your game directory. Mainly for debug purposes but can be used to generate assets in all wood types for your mods :0

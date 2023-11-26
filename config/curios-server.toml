@@ -1,0 +1,6 @@
+
+#List of curio slot type settings
+[[curiosSettings]]
+	identifier = "super_curio"
+	icon = "curios:slot/empty_super_curio_slot"
+

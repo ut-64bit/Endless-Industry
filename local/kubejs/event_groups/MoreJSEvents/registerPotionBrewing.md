@@ -21,17 +21,17 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | ---- | ---------- | ----------- | ------- |
 | addContainerRecipe | Item, Ingredient, Item |  | void | ✘ |
 | addCustomBrewing | Ingredient, Ingredient, ItemStack |  | void | ✘ |
-| removeByPotion | Potion, Ingredient, Potion |  | void | ✘ |
-| addPotionBrewing | Ingredient, Potion |  | void | ✘ |
-| addPotionBrewing | Ingredient, Potion, Potion |  | void | ✘ |
 | validateContainer | Item, Ingredient, Item |  | void | ✘ |
+| addPotionBrewing | Ingredient, Potion, Potion |  | void | ✘ |
+| addPotionBrewing | Ingredient, Potion |  | void | ✘ |
+| removeByPotion | Potion, Ingredient, Potion |  | void | ✘ |
 | removeContainer | Ingredient |  | void | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | success | Object |  | Object | ✘ |
 | success |  |  | Object | ✘ |
-| cancel | Object |  | Object | ✘ |
 | cancel |  |  | Object | ✘ |
+| cancel | Object |  | Object | ✘ |
 
 
 ### Documented members:
@@ -72,6 +72,13 @@ Stops the event with default exit value. Execution will be stopped **immediately
 `success` denotes a `true` outcome.
 ```
 
+- `Object cancel()`
+```
+Cancels the event with default exit value. Execution will be stopped **immediately**.
+
+`cancel` denotes a `false` outcome.
+```
+
 - `Object cancel(Object var0)`
 
   Parameters:
@@ -79,13 +86,6 @@ Stops the event with default exit value. Execution will be stopped **immediately
 
 ```
 Cancels the event with the given exit value. Execution will be stopped **immediately**.
-
-`cancel` denotes a `false` outcome.
-```
-
-- `Object cancel()`
-```
-Cancels the event with default exit value. Execution will be stopped **immediately**.
 
 `cancel` denotes a `false` outcome.
 ```

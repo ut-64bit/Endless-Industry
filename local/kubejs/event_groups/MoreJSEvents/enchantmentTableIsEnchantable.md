@@ -25,16 +25,16 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | itemWasChanged |  |  | boolean | ✘ |
 | setItem | ItemStack |  | void | ✘ |
 | getItem |  |  | ItemStack | ✘ |
-| getSecondItem |  |  | ItemStack | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getPlayer |  |  | Player | ✘ |
+| getSecondItem |  |  | ItemStack | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | success | Object |  | Object | ✘ |
 | success |  |  | Object | ✘ |
-| cancel | Object |  | Object | ✘ |
 | cancel |  |  | Object | ✘ |
+| cancel | Object |  | Object | ✘ |
 
 
 ### Documented members:
@@ -75,6 +75,13 @@ Stops the event with default exit value. Execution will be stopped **immediately
 `success` denotes a `true` outcome.
 ```
 
+- `Object cancel()`
+```
+Cancels the event with default exit value. Execution will be stopped **immediately**.
+
+`cancel` denotes a `false` outcome.
+```
+
 - `Object cancel(Object var0)`
 
   Parameters:
@@ -82,13 +89,6 @@ Stops the event with default exit value. Execution will be stopped **immediately
 
 ```
 Cancels the event with the given exit value. Execution will be stopped **immediately**.
-
-`cancel` denotes a `false` outcome.
-```
-
-- `Object cancel()`
-```
-Cancels the event with default exit value. Execution will be stopped **immediately**.
 
 `cancel` denotes a `false` outcome.
 ```

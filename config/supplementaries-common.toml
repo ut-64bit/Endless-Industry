@@ -266,14 +266,14 @@
 		crystal_enchanting = 3
 
 	[building.ash]
-		enabled = true
+		enabled = false
 		#Burnable blocks will have a chance to create ash layers when burned
-		ash_from_fire = true
+		ash_from_fire = false
 		#Allows rain to wash away ash layers overtime
 		rain_wash_ash = true
 
 		[building.ash.basalt_ash]
-			enabled = true
+			enabled = false
 			#Attempts at every patch to spawn 1 block. Increases average patch size
 			#Range: 1 ~ 1000
 			attempts_per_patch = 36
@@ -412,7 +412,7 @@
 #General settings
 [general]
 	#Enable Creative Tab
-	creative_tab = false
+	creative_tab = true
 	#Set to false to disable custom dispenser behaviors (i.e: filling jars) if for some reason they are causing trouble
 	dispensers = true
 	#Creates a creative tab full of filled jars
@@ -494,7 +494,7 @@
 
 	[tweaks.placeable_gunpowder]
 		#Allow placeable gunpowder
-		enabled = true
+		enabled = false
 		#Number of ticks it takes for gunpowder to burn 1 stage (out of 8). Increase to slow it down
 		#Range: 0 ~ 20
 		speed = 2

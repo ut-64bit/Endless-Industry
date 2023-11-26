@@ -1,4 +1,4 @@
-// ignored: true
+// requires: botania
 
 ForgeEvents.onEvent('net.minecraftforge.event.entity.living.LivingEntityUseItemEvent$Stop', event => {
 	if (event.getItem() == Item.of("botania:flugel_eye")) {

@@ -19,20 +19,20 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| addLake | Consumer<AddLakeProperties> |  | void | ✘ |
-| addFeatureJson | BiomeFilter, JsonObject |  | void | ✘ |
 | addFeatureJson | BiomeFilter, ResourceLocation, JsonObject |  | void | ✘ |
-| getAnchors |  |  | ClassWrapper<VerticalAnchor> | ✔ |
+| addFeatureJson | BiomeFilter, JsonObject |  | void | ✘ |
 | addOre | Consumer<AddOreProperties> |  | void | ✘ |
-| addSpawn | MobCategory, String |  | void | ✘ |
+| addLake | Consumer<AddLakeProperties> |  | void | ✘ |
 | addSpawn | Consumer<AddSpawnProperties> |  | void | ✘ |
+| addSpawn | MobCategory, String |  | void | ✘ |
 | addSpawn | BiomeFilter, MobCategory, String |  | void | ✘ |
+| getAnchors |  |  | ClassWrapper<VerticalAnchor> | ✔ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | success | Object |  | Object | ✘ |
 | success |  |  | Object | ✘ |
-| cancel | Object |  | Object | ✘ |
 | cancel |  |  | Object | ✘ |
+| cancel | Object |  | Object | ✘ |
 
 
 ### Documented members:
@@ -73,6 +73,13 @@ Stops the event with default exit value. Execution will be stopped **immediately
 `success` denotes a `true` outcome.
 ```
 
+- `Object cancel()`
+```
+Cancels the event with default exit value. Execution will be stopped **immediately**.
+
+`cancel` denotes a `false` outcome.
+```
+
 - `Object cancel(Object var0)`
 
   Parameters:
@@ -80,13 +87,6 @@ Stops the event with default exit value. Execution will be stopped **immediately
 
 ```
 Cancels the event with the given exit value. Execution will be stopped **immediately**.
-
-`cancel` denotes a `false` outcome.
-```
-
-- `Object cancel()`
-```
-Cancels the event with default exit value. Execution will be stopped **immediately**.
 
 `cancel` denotes a `false` outcome.
 ```

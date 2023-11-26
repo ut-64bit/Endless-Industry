@@ -1,17 +1,5 @@
 {
   "main": {
-    "2": {
-      "title": "スキルツリー",
-      "icon": {
-        "stack": "{Count:1b,id:\"ars_nouveau:greater_experience_gem\"}"
-      },
-      "action": {
-        "key": {
-          "key": "key.display_skill_tree",
-          "toggle": false
-        }
-      }
-    },
     "3": {
       "title": "進捗",
       "icon": {
@@ -25,14 +13,14 @@
       }
     },
     "4": {
-      "title": "シェーダー",
+      "title": "ステータス",
       "icon": {
-        "stack": "{Count:1b,id:\"botania:rainbow_rod\"}"
+        "stack": "{Count:1b,id:\"ars_nouveau:greater_experience_gem\"}"
       },
       "action": {
         "key": {
-          "key": "iris.keybind.shaderPackSelection",
-          "toggle": true
+          "key": "key.proficiency.open_menu",
+          "toggle": false
         }
       }
     },

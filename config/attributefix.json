@@ -1980,6 +1980,17 @@
         "value": 1024
       }
     },
+    "diet:natural_regeneration": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2,
+        "value": 2
+      }
+    },
     "skilltree:cooked_food_damage_per_saturation": {
       "enabled": false,
       "min": {
@@ -2145,17 +2156,6 @@
         "value": 2048
       }
     },
-    "tetra:ability_cooldown": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 2048,
-        "value": 2048
-      }
-    },
     "skilltree:crafted_weapon_chance_to_ignite": {
       "enabled": false,
       "min": {
@@ -2165,6 +2165,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "tetra:ability_cooldown": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
       }
     },
     "skilltree:attack_damage_per_armor": {

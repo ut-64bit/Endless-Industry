@@ -1,0 +1,10 @@
+
+#General settings
+[general]
+	#How efficient the source <-> mana converters are
+	#Range: 0.0 ~ 1.0
+	converterEfficiency = 0.8500000238418579
+	#How much botania mana equals one source
+	#Range: 1 ~ 100
+	manaPerSource = 6
+

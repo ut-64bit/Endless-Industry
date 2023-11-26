@@ -85,14 +85,9 @@ to make editing this file much easier.
 	   	}
 	*/
 	"swapper": {
-		"projectvibrantjourneys:oak_hollow_log":"quark:hollow_oak_log",
-		"projectvibrantjourneys:dark_oak_hollow_log":"quark:hollow_dark_oak_log",
-		"projectvibrantjourneys:spruce_hollow_log":"quark:hollow_spruce_log",
-		"projectvibrantjourneys:spruce_hollow_log":"quark:hollow_spruce_log",
-		"projectvibrantjourneys:birch_hollow_log":"quark:hollow_birch_log",
-		"projectvibrantjourneys:acacia_hollow_log":"quark:hollow_acacia_log",
-		"projectvibrantjourneys:jungle_hollow_log":"quark:hollow_jungle_log",
-
-		"projectvibrantjourneys:icicle":"immersive_weathering:icicle"
+		'quark:rope': 'supplementaries:rope',
+		'farmersdelight:rope': 'supplementaries:rope',
+		'createdeco:iron_ladder': 'quark:iron_ladder',
+		'immersive_weathering:mulch_block': 'farmersdelight:organic_compost'
 	}
 }

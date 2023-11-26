@@ -1,9 +1,10 @@
+/.mixin.out
 /config/jei/world/
 /config/blockswap/known_states/
 /crash-reports
 /downloads
 /globalresources
-lightspeed-cache
+/lightspeed-cache
 /localconfigs
 /logs
 /mod_data
@@ -13,6 +14,9 @@ lightspeed-cache
 /shaderpacks
 /XaeroWaypoints
 /XaeroWorldMap
+/XaeroWaypoints_BACKUP032021
+/not-enough-crashes
+/debug
 
 /.curseclient
 /minecraftinstance.json
@@ -21,3 +25,4 @@ lightspeed-cache
 /usercache.json
 /usernamecache.json
 /.qmenu_opened.marker
+journeymap/data/*
