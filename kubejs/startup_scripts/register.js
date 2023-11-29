@@ -5,7 +5,8 @@ ItemEvents.toolTierRegistry(event => { })
 
 StartupEvents.registry('item', event => {
 	event.create('plant_fiber').texture('kubejs:item/plant_fiber')
-	//event.create("metal_file").texture("kubejs:item/metal_file")
+	event.create("create:industrial_iron_ingot").texture("create:item/industrial_iron_ingot")
+	event.create("create:industrial_iron_sheet").texture("create:item/industrial_iron_sheet")
 })
 
 ItemEvents.modification(event => {
