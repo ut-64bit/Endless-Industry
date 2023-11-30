@@ -24,11 +24,11 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
 | getItem |  |  | ItemStack | ✘ |
-| getEntity |  |  | LivingEntity | ✘ |
 | getInventory |  |  | InventoryKJS | ✘ |
+| getEntity |  |  | Player | ✘ |
 | addGameStage | String |  | void | ✘ |
-| removeGameStage | String |  | void | ✘ |
 | getPlayer |  |  | Player | ✘ |
+| removeGameStage | String |  | void | ✘ |
 | hasGameStage | String |  | boolean | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
@@ -36,8 +36,8 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | exit |  |  | Object | ✘ |
 | success | Object |  | Object | ✘ |
 | success |  |  | Object | ✘ |
-| cancel |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
+| cancel |  |  | Object | ✘ |
 
 
 ### Documented members:
@@ -47,14 +47,14 @@ Note: Even if no fields are listed above, some methods are still available as fi
 The item that was crafted.
 ```
 
-- `LivingEntity getEntity()`
-```
-The player that crafted the item.
-```
-
 - `InventoryKJS getInventory()`
 ```
 The inventory that the item was crafted in.
+```
+
+- `Player getEntity()`
+```
+The player that crafted the item.
 ```
 
 - `void addGameStage(String var0)`
@@ -120,13 +120,6 @@ Stops the event with default exit value. Execution will be stopped **immediately
 `success` denotes a `true` outcome.
 ```
 
-- `Object cancel()`
-```
-Cancels the event with default exit value. Execution will be stopped **immediately**.
-
-`cancel` denotes a `false` outcome.
-```
-
 - `Object cancel(Object var0)`
 
   Parameters:
@@ -134,6 +127,13 @@ Cancels the event with default exit value. Execution will be stopped **immediate
 
 ```
 Cancels the event with the given exit value. Execution will be stopped **immediately**.
+
+`cancel` denotes a `false` outcome.
+```
+
+- `Object cancel()`
+```
+Cancels the event with default exit value. Execution will be stopped **immediately**.
 
 `cancel` denotes a `false` outcome.
 ```

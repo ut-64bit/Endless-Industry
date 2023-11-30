@@ -32,3 +32,8 @@ ItemEvents.modification(event => {
 
 // Block
 StartupEvents.registry('block', event => { })
+
+
+CreateCasingEvents.encased(event=>{
+	///event.createPipe("")
+})

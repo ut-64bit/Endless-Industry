@@ -24,8 +24,8 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
 | getSource |  |  | DamageSource | ✘ |
-| getDamage |  |  | float | ✘ |
 | getEntity |  |  | LivingEntity | ✘ |
+| getDamage |  |  | float | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getPlayer |  |  | Player | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
@@ -33,8 +33,8 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | exit |  |  | Object | ✘ |
 | success | Object |  | Object | ✘ |
 | success |  |  | Object | ✘ |
-| cancel |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
+| cancel |  |  | Object | ✘ |
 
 
 ### Documented members:
@@ -44,14 +44,14 @@ Note: Even if no fields are listed above, some methods are still available as fi
 The damage source.
 ```
 
-- `float getDamage()`
-```
-The amount of damage.
-```
-
 - `LivingEntity getEntity()`
 ```
 The entity that was hurt.
+```
+
+- `float getDamage()`
+```
+The amount of damage.
 ```
 
 - `Object exit(Object var0)`
@@ -90,13 +90,6 @@ Stops the event with default exit value. Execution will be stopped **immediately
 `success` denotes a `true` outcome.
 ```
 
-- `Object cancel()`
-```
-Cancels the event with default exit value. Execution will be stopped **immediately**.
-
-`cancel` denotes a `false` outcome.
-```
-
 - `Object cancel(Object var0)`
 
   Parameters:
@@ -104,6 +97,13 @@ Cancels the event with default exit value. Execution will be stopped **immediate
 
 ```
 Cancels the event with the given exit value. Execution will be stopped **immediately**.
+
+`cancel` denotes a `false` outcome.
+```
+
+- `Object cancel()`
+```
+Cancels the event with default exit value. Execution will be stopped **immediately**.
 
 `cancel` denotes a `false` outcome.
 ```

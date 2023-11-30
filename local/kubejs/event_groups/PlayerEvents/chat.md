@@ -27,14 +27,14 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
 | getMessage |  |  | String | ✘ |
+| getEntity |  |  | Entity | ✘ |
 | setMessage | Component |  | void | ✘ |
-| setComponent | Component |  | void | ✘ |
 | getComponent |  |  | Component | ✘ |
-| getEntity |  |  | Player | ✘ |
 | getUsername |  |  | String | ✘ |
+| setComponent | Component |  | void | ✘ |
 | addGameStage | String |  | void | ✘ |
-| removeGameStage | String |  | void | ✘ |
 | getPlayer |  |  | Player | ✘ |
+| removeGameStage | String |  | void | ✘ |
 | hasGameStage | String |  | boolean | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
@@ -42,8 +42,8 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | exit |  |  | Object | ✘ |
 | success | Object |  | Object | ✘ |
 | success |  |  | Object | ✘ |
-| cancel |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
+| cancel |  |  | Object | ✘ |
 
 
 ### Documented members:
@@ -53,16 +53,12 @@ Note: Even if no fields are listed above, some methods are still available as fi
 Gets the message that the player sent.
 ```
 
+- `Entity getEntity()`
+```
+Gets the player that sent the message.
+```
+
 - `void setMessage(Component var0)`
-
-  Parameters:
-  - var0: Component
-
-```
-Sets the message that the player sent.
-```
-
-- `void setComponent(Component var0)`
 
   Parameters:
   - var0: Component
@@ -76,14 +72,18 @@ Sets the message that the player sent.
 Gets the message that the player sent.
 ```
 
-- `Player getEntity()`
-```
-Gets the player that sent the message.
-```
-
 - `String getUsername()`
 ```
 Gets the username of the player that sent the message.
+```
+
+- `void setComponent(Component var0)`
+
+  Parameters:
+  - var0: Component
+
+```
+Sets the message that the player sent.
 ```
 
 - `void addGameStage(String var0)`
@@ -149,13 +149,6 @@ Stops the event with default exit value. Execution will be stopped **immediately
 `success` denotes a `true` outcome.
 ```
 
-- `Object cancel()`
-```
-Cancels the event with default exit value. Execution will be stopped **immediately**.
-
-`cancel` denotes a `false` outcome.
-```
-
 - `Object cancel(Object var0)`
 
   Parameters:
@@ -163,6 +156,13 @@ Cancels the event with default exit value. Execution will be stopped **immediate
 
 ```
 Cancels the event with the given exit value. Execution will be stopped **immediately**.
+
+`cancel` denotes a `false` outcome.
+```
+
+- `Object cancel()`
+```
+Cancels the event with default exit value. Execution will be stopped **immediately**.
 
 `cancel` denotes a `false` outcome.
 ```

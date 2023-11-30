@@ -1,8 +1,0 @@
-{
-	"id": "minecraft:lantern",
-	"light": {
-		"type": "lucent:match_block",
-		"block": "minecraft:lantern"
-	},
-	"works_underwater": false
-}

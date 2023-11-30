@@ -19,8 +19,8 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| getPlayer |  |  | Player | ✘ |
 | getEntity |  |  | Entity | ✘ |
+| getPlayer |  |  | LocalPlayer | ✘ |
 | addGameStage | String |  | void | ✘ |
 | removeGameStage | String |  | void | ✘ |
 | hasGameStage | String |  | boolean | ✘ |
@@ -30,8 +30,8 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | exit |  |  | Object | ✘ |
 | success | Object |  | Object | ✘ |
 | success |  |  | Object | ✘ |
-| cancel |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
+| cancel |  |  | Object | ✘ |
 
 
 ### Documented members:
@@ -99,13 +99,6 @@ Stops the event with default exit value. Execution will be stopped **immediately
 `success` denotes a `true` outcome.
 ```
 
-- `Object cancel()`
-```
-Cancels the event with default exit value. Execution will be stopped **immediately**.
-
-`cancel` denotes a `false` outcome.
-```
-
 - `Object cancel(Object var0)`
 
   Parameters:
@@ -113,6 +106,13 @@ Cancels the event with default exit value. Execution will be stopped **immediate
 
 ```
 Cancels the event with the given exit value. Execution will be stopped **immediately**.
+
+`cancel` denotes a `false` outcome.
+```
+
+- `Object cancel()`
+```
+Cancels the event with default exit value. Execution will be stopped **immediately**.
 
 `cancel` denotes a `false` outcome.
 ```

@@ -40,7 +40,29 @@ global.deleteItem = [
 	'culturaldelights:cooked_squid',
 	'culturaldelights:squid',
 	'culturaldelights:glow_squid',
-	'nethersdelight:blackstone_furnace'
+	'nethersdelight:blackstone_furnace',
+	'create_dd:refined_radiance',
+	'create_dd:refined_radiance_sheet',
+	'create_dd:refined_radiance_casing',
+	'create_dd:shadow_steel',
+	'create_dd:shadow_steel_sheet',
+	'create_dd:shadow_steel_casing',
+	'create_dd:kinetic_motor',
+	'create_dd:accelerator_motor',
+	'create_new_age:advanced_motor_extension',
+	'create_new_age:basic_motor_extension',
+	/^(create_dd:infa.*)$/,
+	'create_dd:frozen_nugget',
+	'create_dd:experience_mass',
+	'create_dd:experience_ingot',
+	'create_dd:chromatic_block',
+	'create_dd:chromatic_compound',
+	'create_dd:mossy_andesite_casing',
+	'create_dd:leather_block',
+	'create_dd:stargaze_singularity_block',
+	'create_dd:netherite_casing',
+	'create_dd:mossy_andesite_alloy_block',
+	'create_dd:stargaze_singularity_casing',
 ]
 
 /**
@@ -286,7 +308,8 @@ ServerEvents.recipes(event => {
 			"C": '#create:toolboxes'
 		}).id("sophisticatedbackpacks:backpack")
 
-		create.mixing("3x #forge:ingots/cast_iron", ["3x iron_ingot", "#minecraft:coals"], 180).heated()//.id()
+		create.mixing("3x #forge:ingots/cast_iron", ["3x iron_ingot", "#minecraft:coals"], 200, "lowheated")//.id()
+		create.pressing("#forge:ingots/cast_iron", ["3x iron_ingot", "#minecraft:coals"], 200, "lowheated")//.id()
 
 		/**
 		event.remove({ id: "create_new_age:reactor/reactor_casing" })

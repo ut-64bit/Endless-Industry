@@ -34,31 +34,31 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | ---- | ---------- | ----------- | ------- |
 | remove | RecipeFilter |  | void | ✘ |
 | stage | RecipeFilter, String |  | void | ✘ |
-| getRecipes |  |  | Map<String, Object> | ✘ |
-| custom | JsonObject |  | RecipeJS | ✘ |
+| replaceOutput | RecipeFilter, ReplacementMatch, OutputReplacement |  | void | ✘ |
+| replaceInput | RecipeFilter, ReplacementMatch, InputReplacement |  | void | ✘ |
 | printTypes |  |  | void | ✘ |
 | addRecipe | RecipeJS, boolean |  | RecipeJS | ✘ |
-| replaceInput | RecipeFilter, ReplacementMatch, InputReplacement |  | void | ✘ |
-| replaceOutput | RecipeFilter, ReplacementMatch, OutputReplacement |  | void | ✘ |
-| findRecipes | RecipeFilter |  | Collection<RecipeJS> | ✘ |
-| getRecipeFunction | String |  | RecipeTypeFunction | ✘ |
-| recipeStream | RecipeFilter |  | Stream<RecipeJS> | ✘ |
-| customFilter | Predicate<RecipeKJS> |  | RecipeFilter | ✘ |
-| runInParallel | Runnable |  | void | ✔ |
-| runInParallel | Callable<T> |  | T | ✔ |
-| forEachRecipe | RecipeFilter, Consumer<RecipeJS> |  | void | ✘ |
-| containsRecipe | RecipeFilter |  | boolean | ✘ |
-| countRecipes | RecipeFilter |  | int | ✘ |
+| getRecipes |  |  | Map<String, Object> | ✘ |
+| custom | JsonObject |  | RecipeJS | ✘ |
 | findRecipeIds | RecipeFilter |  | Collection<ResourceLocation> | ✘ |
 | printExamples | String |  | void | ✘ |
-| setItemErrors | boolean |  | void | ✘ |
+| containsRecipe | RecipeFilter |  | boolean | ✘ |
 | printAllTypes |  |  | void | ✘ |
+| setItemErrors | boolean |  | void | ✘ |
+| findRecipes | RecipeFilter |  | Collection<RecipeJS> | ✘ |
+| customFilter | Predicate<RecipeKJS> |  | RecipeFilter | ✘ |
+| forEachRecipe | RecipeFilter, Consumer<RecipeJS> |  | void | ✘ |
+| countRecipes | RecipeFilter |  | int | ✘ |
+| recipeStream | RecipeFilter |  | Stream<RecipeJS> | ✘ |
+| runInParallel | Runnable |  | void | ✔ |
+| runInParallel | Callable<T> |  | T | ✔ |
+| getRecipeFunction | String |  | RecipeTypeFunction | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | success | Object |  | Object | ✘ |
 | success |  |  | Object | ✘ |
-| cancel |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
+| cancel |  |  | Object | ✘ |
 
 
 ### Documented members:
@@ -99,13 +99,6 @@ Stops the event with default exit value. Execution will be stopped **immediately
 `success` denotes a `true` outcome.
 ```
 
-- `Object cancel()`
-```
-Cancels the event with default exit value. Execution will be stopped **immediately**.
-
-`cancel` denotes a `false` outcome.
-```
-
 - `Object cancel(Object var0)`
 
   Parameters:
@@ -113,6 +106,13 @@ Cancels the event with default exit value. Execution will be stopped **immediate
 
 ```
 Cancels the event with the given exit value. Execution will be stopped **immediately**.
+
+`cancel` denotes a `false` outcome.
+```
+
+- `Object cancel()`
+```
+Cancels the event with default exit value. Execution will be stopped **immediately**.
 
 `cancel` denotes a `false` outcome.
 ```

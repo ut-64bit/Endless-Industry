@@ -20,23 +20,23 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
 | getEntity |  |  | LivingEntity | ✘ |
+| getProfession |  |  | VillagerProfession | ✘ |
 | isProfession | VillagerProfession |  | boolean | ✘ |
 | getVillagerLevel |  |  | int | ✘ |
-| getProfession |  |  | VillagerProfession | ✘ |
 | getVillagerData |  |  | VillagerData | ✘ |
 | getVillagerTrades | VillagerProfession |  | List<VillagerTrades$ItemListing> | ✘ |
 | getVillagerTrades | VillagerProfession, int |  | List<VillagerTrades$ItemListing> | ✘ |
-| getOffers |  |  | MerchantOffers | ✘ |
 | invokeEvent | AbstractVillager, MerchantOffers, ItemListing[], List<MerchantOffer> |  | void | ✔ |
-| isWanderer |  |  | boolean | ✘ |
+| getOffers |  |  | MerchantOffers | ✘ |
 | isVillager |  |  | boolean | ✘ |
+| isWanderer |  |  | boolean | ✘ |
 | deleteAddedOffers |  |  | void | ✘ |
-| getUsedTrades |  |  | List<VillagerTrades$ItemListing> | ✘ |
-| getAddedOffers |  |  | Collection<MerchantOffer> | ✘ |
-| getWandererTrades | int |  | List<VillagerTrades$ItemListing> | ✘ |
-| getWandererTrades |  |  | List<VillagerTrades$ItemListing> | ✘ |
 | addRandomOffer | List<VillagerTrades$ItemListing> |  | MerchantOffer | ✘ |
 | addRandomOffer |  |  | MerchantOffer | ✘ |
+| getAddedOffers |  |  | Collection<MerchantOffer> | ✘ |
+| getUsedTrades |  |  | List<VillagerTrades$ItemListing> | ✘ |
+| getWandererTrades | int |  | List<VillagerTrades$ItemListing> | ✘ |
+| getWandererTrades |  |  | List<VillagerTrades$ItemListing> | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getPlayer |  |  | Player | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
@@ -44,8 +44,8 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | exit |  |  | Object | ✘ |
 | success | Object |  | Object | ✘ |
 | success |  |  | Object | ✘ |
-| cancel |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
+| cancel |  |  | Object | ✘ |
 
 
 ### Documented members:
@@ -86,13 +86,6 @@ Stops the event with default exit value. Execution will be stopped **immediately
 `success` denotes a `true` outcome.
 ```
 
-- `Object cancel()`
-```
-Cancels the event with default exit value. Execution will be stopped **immediately**.
-
-`cancel` denotes a `false` outcome.
-```
-
 - `Object cancel(Object var0)`
 
   Parameters:
@@ -100,6 +93,13 @@ Cancels the event with default exit value. Execution will be stopped **immediate
 
 ```
 Cancels the event with the given exit value. Execution will be stopped **immediately**.
+
+`cancel` denotes a `false` outcome.
+```
+
+- `Object cancel()`
+```
+Cancels the event with default exit value. Execution will be stopped **immediately**.
 
 `cancel` denotes a `false` outcome.
 ```

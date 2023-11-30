@@ -24,12 +24,12 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
 | getBlock |  |  | BlockContainerJS | ✘ |
+| getEntity |  |  | LivingEntity | ✘ |
 | setXp | int |  | void | ✘ |
 | getXp |  |  | int | ✘ |
-| getEntity |  |  | Entity | ✘ |
 | addGameStage | String |  | void | ✘ |
-| removeGameStage | String |  | void | ✘ |
 | getPlayer |  |  | Player | ✘ |
+| removeGameStage | String |  | void | ✘ |
 | hasGameStage | String |  | boolean | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
@@ -37,8 +37,8 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | exit |  |  | Object | ✘ |
 | success | Object |  | Object | ✘ |
 | success |  |  | Object | ✘ |
-| cancel |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
+| cancel |  |  | Object | ✘ |
 
 
 ### Documented members:
@@ -46,6 +46,11 @@ Note: Even if no fields are listed above, some methods are still available as fi
 - `BlockContainerJS getBlock()`
 ```
 The block that was broken.
+```
+
+- `LivingEntity getEntity()`
+```
+The player that broke the block.
 ```
 
 - `void setXp(int var0)`
@@ -60,11 +65,6 @@ Sets the experience dropped by the block. Only works on Forge.
 - `int getXp()`
 ```
 The experience dropped by the block. Always `0` on Fabric.
-```
-
-- `Entity getEntity()`
-```
-The player that broke the block.
 ```
 
 - `void addGameStage(String var0)`
@@ -130,13 +130,6 @@ Stops the event with default exit value. Execution will be stopped **immediately
 `success` denotes a `true` outcome.
 ```
 
-- `Object cancel()`
-```
-Cancels the event with default exit value. Execution will be stopped **immediately**.
-
-`cancel` denotes a `false` outcome.
-```
-
 - `Object cancel(Object var0)`
 
   Parameters:
@@ -144,6 +137,13 @@ Cancels the event with default exit value. Execution will be stopped **immediate
 
 ```
 Cancels the event with the given exit value. Execution will be stopped **immediately**.
+
+`cancel` denotes a `false` outcome.
+```
+
+- `Object cancel()`
+```
+Cancels the event with default exit value. Execution will be stopped **immediately**.
 
 `cancel` denotes a `false` outcome.
 ```

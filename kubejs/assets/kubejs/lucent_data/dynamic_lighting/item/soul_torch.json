@@ -1,8 +1,0 @@
-{
-	"id": "minecraft:soul_torch",
-	"light": {
-		"type": "lucent:match_block",
-		"block": "minecraft:soul_torch"
-	},
-	"works_underwater": true
-}

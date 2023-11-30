@@ -23,14 +23,14 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| getBlock |  |  | BlockContainerJS | ✘ |
 | getItem |  |  | ItemStack | ✘ |
+| getBlock |  |  | BlockContainerJS | ✘ |
+| getEntity |  |  | LivingEntity | ✘ |
 | getHand |  |  | InteractionHand | ✘ |
 | getFacing |  |  | Direction | ✘ |
-| getEntity |  |  | Player | ✘ |
 | addGameStage | String |  | void | ✘ |
-| removeGameStage | String |  | void | ✘ |
 | getPlayer |  |  | Player | ✘ |
+| removeGameStage | String |  | void | ✘ |
 | hasGameStage | String |  | boolean | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
@@ -38,20 +38,25 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | exit |  |  | Object | ✘ |
 | success | Object |  | Object | ✘ |
 | success |  |  | Object | ✘ |
-| cancel |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
+| cancel |  |  | Object | ✘ |
 
 
 ### Documented members:
+
+- `ItemStack getItem()`
+```
+The position of the block that was right clicked.
+```
 
 - `BlockContainerJS getBlock()`
 ```
 The block that was right clicked.
 ```
 
-- `ItemStack getItem()`
+- `LivingEntity getEntity()`
 ```
-The position of the block that was right clicked.
+The player that right clicked the block.
 ```
 
 - `InteractionHand getHand()`
@@ -62,11 +67,6 @@ The hand that was used to right click the block.
 - `Direction getFacing()`
 ```
 The face of the block being right clicked.
-```
-
-- `Player getEntity()`
-```
-The player that right clicked the block.
 ```
 
 - `void addGameStage(String var0)`
@@ -132,13 +132,6 @@ Stops the event with default exit value. Execution will be stopped **immediately
 `success` denotes a `true` outcome.
 ```
 
-- `Object cancel()`
-```
-Cancels the event with default exit value. Execution will be stopped **immediately**.
-
-`cancel` denotes a `false` outcome.
-```
-
 - `Object cancel(Object var0)`
 
   Parameters:
@@ -146,6 +139,13 @@ Cancels the event with default exit value. Execution will be stopped **immediate
 
 ```
 Cancels the event with the given exit value. Execution will be stopped **immediately**.
+
+`cancel` denotes a `false` outcome.
+```
+
+- `Object cancel()`
+```
+Cancels the event with default exit value. Execution will be stopped **immediately**.
 
 `cancel` denotes a `false` outcome.
 ```
